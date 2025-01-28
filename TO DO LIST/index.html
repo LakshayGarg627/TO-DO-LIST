@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <h1>My To-Do List</h1>
+            <input type="text" placeholder="Add a new todo..." id="inputBox">
+            <input type="button" value="Add" id="addBtn">
+        </div>
+        <ul class="todo" id="todoList">
+            
+        </ul>
+        <div class="all">
+            <input type="button" value="Mark All as done" class="allBtn alldone" >
+            <input type="button" value="Detele All" class="allBtn alldelete">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

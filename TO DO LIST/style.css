@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;;
+}
+
+body{
+    background-color: rgb(223, 227, 228);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.45rem;
+}
+.input-container{
+    width: 100%;
+    
+    max-width: 500px;
+    text-align: center;
+    padding: 1.5rem;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.input-container input[type="text"]{
+    width: 70%;
+}
+.input-container input[type="button"]{
+    background-color: rgb(50, 208, 18);
+    /* width: 75%; */
+    color: white;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+}
+.input-container input[type="button"]:hover{
+    background-color: #17b917;
+}
+ul{
+    width: 100%;
+    max-width: 400px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+ul li{
+    list-style-type: none;
+    border: 0.125px solid #a19f9f;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin: 0.75rem 0rem;
+    padding: 0.5rem 0.8rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;
+}
+ul li:hover{
+    background-color: #e9e9e9;
+}
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+.btn{
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0.5rem;
+
+}
+.delete{
+    color: #ff0000;
+}
+.edit{
+    color: #008000;
+    
+}
+.add{
+    color:rgb(181, 22, 234);
+    
+}
+.allBtn{
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    background-color: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.25rem;
+}
+.alldelete{
+    background-color: rgb(249, 63, 30);
+}
+.alldone{
+    background-color: rgb(24, 235, 217);
+}
+.alldelete:hover{
+    background-color: rgb(217, 24, 24);
+}
+.alldone:hover{
+    background-color: rgb(25, 211, 196);
+}
+
